@@ -129,7 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-crypto-config/
+# Ignore all contents in crypto-config directory
+crypto-config/**
 
-fabric-ca/
-
+# Ignore all contents in fabric-ca directory
+fabric-ca/**
